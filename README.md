@@ -1,45 +1,54 @@
 # MERN-Search
 
+No License at this time
 
-WHEN I load the search engine
-THEN I am presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
+## 📘 Description
 
-WHEN I click on the Search for Books menu option
-THEN I am presented with an input field to search for books and a submit button
+This project involves a code refactor that sets up the application to utilize GraphQL instead of a RESTful API call. The switch to GraphQL enables more efficient and streamlined data fetching, as well as improved query flexibility.
 
-WHEN I am not logged in and enter a search term in the input field and click the submit button
-THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site
+## 📑 Table of Contents 
 
-WHEN I click on the Login/Signup menu option
-THEN a modal appears on the screen with a toggle between the option to log in or sign up
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Credits](#credits)
 
-WHEN the toggle is set to Signup
-THEN I am presented with three inputs for a username, an email address, and a password, and a signup button
+## 🛠️ Installation 
 
-WHEN the toggle is set to Login
-THEN I am presented with two inputs for an email address and a password and login button
+To get started with this project, you'll need to have the following technologies installed:
 
-WHEN I enter a valid email address and create a password and click on the signup button
-THEN my user account is created and I am logged in to the site
+Apollo
+Express
+GraphQL
+React
+Bootstrap
+bcrypt
+jsonwebtoken
+mongoose
+Please ensure that you have these dependencies installed and properly configured before attempting to run the application.
 
-WHEN I enter my account’s email address and password and click on the login button
-THEN I the modal closes and I am logged in to the site
+## Usage
 
-WHEN I am logged in to the site
-THEN the menu options change to Search for Books, an option to see my saved books, and Logout
+To use this application, simply use the search bar to search for books. The search functionality is powered by an API that queries a database of available books. Once you find a book that interests you, you can view additional information about the book, such as its author, publication date, and description.
 
-WHEN I am logged in and enter a search term in the input field and click the submit button
-THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site and a button to save a book 
-to my account
+## 🔒 License
 
-WHEN I click on the Save button on a book
-THEN that book’s information is saved to my account
+This project is covered under : No License at this time!
 
-WHEN I click on the option to see my saved books
-THEN I am presented with all of the books I have saved to my account, each featuring the book’s title, author, description, image, and a link to that book on the Google Books site and a button to remove a book from my account
+## 🤝 Credits
+Nikki - https://github.com/ndallich1
+Nicholas - https://github.com/nwherman1724
 
-WHEN I click on the Remove button on a book
-THEN that book is deleted from my saved books list
+## ⚡ Test
 
-WHEN I click on the Logout button
-THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
+None
+
+## ❓ Questions
+
+If you have any questions - use the links below to reach out!
+
+Github Username: @tnewnum
+
+Github webpage: https://github.com/tnewnum
+
+Email me with any additional questions: thomas.newnum@gmail.com
